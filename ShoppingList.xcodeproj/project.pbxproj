@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		CF4050A125092EA2009FA672 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4050A025092EA2009FA672 /* AppDelegate.swift */; };
 		CF4050A325092EA2009FA672 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4050A225092EA2009FA672 /* SceneDelegate.swift */; };
-		CF4050A525092EA2009FA672 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4050A425092EA2009FA672 /* ViewController.swift */; };
 		CF4050A825092EA2009FA672 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4050A625092EA2009FA672 /* Main.storyboard */; };
 		CF4050AB25092EA2009FA672 /* ShoppingList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF4050A925092EA2009FA672 /* ShoppingList.xcdatamodeld */; };
 		CF4050AD25092EA3009FA672 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF4050AC25092EA3009FA672 /* Assets.xcassets */; };
 		CF4050B025092EA3009FA672 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4050AE25092EA3009FA672 /* LaunchScreen.storyboard */; };
+		CF4050B82509304A009FA672 /* ShoppingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4050B72509304A009FA672 /* ShoppingTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CF40509D25092EA2009FA672 /* ShoppingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF4050A025092EA2009FA672 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF4050A225092EA2009FA672 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CF4050A425092EA2009FA672 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CF4050A725092EA2009FA672 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF4050AA25092EA2009FA672 /* ShoppingList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ShoppingList.xcdatamodel; sourceTree = "<group>"; };
 		CF4050AC25092EA3009FA672 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF4050AF25092EA3009FA672 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF4050B125092EA3009FA672 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF4050B72509304A009FA672 /* ShoppingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +60,12 @@
 			children = (
 				CF4050A025092EA2009FA672 /* AppDelegate.swift */,
 				CF4050A225092EA2009FA672 /* SceneDelegate.swift */,
-				CF4050A425092EA2009FA672 /* ViewController.swift */,
 				CF4050A625092EA2009FA672 /* Main.storyboard */,
 				CF4050AC25092EA3009FA672 /* Assets.xcassets */,
 				CF4050AE25092EA3009FA672 /* LaunchScreen.storyboard */,
 				CF4050B125092EA3009FA672 /* Info.plist */,
 				CF4050A925092EA2009FA672 /* ShoppingList.xcdatamodeld */,
+				CF4050B72509304A009FA672 /* ShoppingTableViewController.swift */,
 			);
 			path = ShoppingList;
 			sourceTree = "<group>";
@@ -141,8 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF4050A525092EA2009FA672 /* ViewController.swift in Sources */,
 				CF4050AB25092EA2009FA672 /* ShoppingList.xcdatamodeld in Sources */,
+				CF4050B82509304A009FA672 /* ShoppingTableViewController.swift in Sources */,
 				CF4050A125092EA2009FA672 /* AppDelegate.swift in Sources */,
 				CF4050A325092EA2009FA672 /* SceneDelegate.swift in Sources */,
 			);
